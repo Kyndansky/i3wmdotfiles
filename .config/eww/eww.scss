@@ -1,0 +1,93 @@
+* {
+  all: unset; // Unsets everything so you can style everything from scratch
+}
+
+.bar {
+  background-color: rgba(0, 0, 0, 0);
+  background: none;
+  box-shadow: none;
+  min-height: 1px; 
+  margin-top:5;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.sidestuff, .workspaces, .time, .music-box{
+  background-color: rgba(169, 169, 169, 0.4);
+  border-style: solid;
+  border-width:1px;
+  border-color: rgba(169, 169, 169, 1);
+  border-radius: 15px;
+}
+
+.sidestuff {
+  padding: 1px 10px;
+  
+  font-size: large;
+
+  * {
+    padding: 0 3px;
+  }
+}
+
+.workspaces, .time {
+  padding: 0 2px;
+}
+.workspaces button{
+  padding:0px 0px;
+}
+.workspaces button, .power-buttons button {
+  padding: 0 10px;
+  border-radius: 15px;
+  margin: 0 2px;
+  transition: all 0.15s ease-out;
+}
+
+.active-workspace {
+  background-color: #474747;
+}
+
+.focused-workspace {
+  background-color: #202020;
+}
+
+.urgent-workspace {
+  background-color: DarkRed;
+}
+
+.time * {
+  padding: 0 5px;
+  font-family: "JetBrainsMono Nerd Font";
+
+}
+
+.power-buttons button {
+  font-size: 20px;
+  &:hover {
+    transition: 200ms linear background-color, border-radius;
+    background-color: rgba(#3d464e, 0.6);
+  }
+}
+
+.power-buttons .shutdown {
+  color: rgba(#fa3939, 1);
+}
+
+.power-buttons .reboot, .suspend, .logout{
+  background-color: rgba(#ffffff, 0.1);
+}
+
+.music-box{
+  padding: 0 10px;
+}
+
+*{
+  font-family: "JetBrainsMono Nerd Font";
+}
+
+.specs{
+  background-color: rgba($color: #ffffff, $alpha: 1);
+  border-radius: 15px;
+  margin: 2px 0px;
+  color: black;
+}
