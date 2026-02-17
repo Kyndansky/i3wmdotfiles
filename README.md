@@ -1,6 +1,6 @@
 # i3wmdotfiles
 ## Info
-This are some of my .config configurations using linux (my distro is mint but it should work perfectly well for any other distro) with i3wm and picom (and eww for the top bar). It also includes a couple of scripts to display the wallpapers (they are displayed on 2 screens since i have 2, you can edit it to your liking)
+These are some of my .config configurations using linux (my distro is mint but it should work perfectly well for any other distro) with i3wm and picom (and eww for the top bar). It also includes a couple of scripts to display the wallpapers (they are displayed on 2 screens since i have 2, you can edit it to your liking)
 (the wallpaper is not included so mind that the script won't work by itself)
 
 ## Purpose
