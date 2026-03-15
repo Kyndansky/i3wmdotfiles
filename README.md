@@ -12,4 +12,4 @@ Feel free to use my configuration however you like: you can use it or edit it, i
 ## Suggestions
 i especially reccomend the picom config, as it provides good animations for window switching with trasparency effects and the eww config for a trasparent clean topbar that displays music, time and date, all workspaces, wifi icon if connected, volume and system tray apps (as well as buttons to shutdown, reboot, suspend or logout of the session).
 
-This is the first time i share my dotfiles and i've been using linux for about a week so i'll probably changed everything if i feel it needs to be changed.
+This is the first time i share my dotfiles and i've been using linux for about a week so i'll probably change everything if i feel it needs to be changed.
